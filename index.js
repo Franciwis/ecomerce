@@ -33,7 +33,7 @@ app.get("/products", controllers.getProducts);
 app.get("/products-cart", controllers.getProductsCart);
 
 
-app.get("/productById/:_id", controllers.getProductById);
+// app.get("/productById/:_id", controllers.getProductById);
 
 
 /* POST */
@@ -71,9 +71,9 @@ app.post("/create_preference", async (req, res) => {
         },
       ],
       back_urls: {
-        success: "https://www.youtube.com/@onthecode",
-        failure: "https://www.youtube.com/@onthecode",
-        pending: "https://www.youtube.com/@onthecode",
+        success: "https://65bc027b8777410008850665--roaring-tulumba-ba31a3.netlify.app/",
+        failure: "https://65bc027b8777410008850665--roaring-tulumba-ba31a3.netlify.app/",
+        pending: "https://65bc027b8777410008850665--roaring-tulumba-ba31a3.netlify.app/",
       },
       auto_return: "approved",
     };
